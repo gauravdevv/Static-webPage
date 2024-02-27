@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.stick{
+    position: sticky;
+    top: 0;
+}
+
+header{
+    display: flex;
+    padding: 1% 6%;
+    justify-content: space-around;
+    align-items: center;
+    /* margin-bottom: 1.2%; */
+    background-color: #82c0cc;
+   
+}
+ /* img{
+   height: 60px;
+   width: 60px;
+   border-radius: 35px;
+} */
+
+
+.nav-items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-items ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #fff;
+
+}
+
+li a.active{
+    background-color: #023e8a;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+h4{
+    font-size: 20px;
+    color: #fff;
+    /* margin-left: -6%; */
+}
+
+.search_box input[type=text]{
+    font-size: 20px;
+    border-color: #023e8a;
+    border-color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.icons a{
+    font-size: 15px;
+    padding: 0 10px;
+    color: #fff;
+}
+
+nav{
+
+    /* display: flex;
+    padding: 0.2% 6%;
+    justify-content: space-between;
+    align-items: center; */
+    background-color: #023e8a;
+    /* position: sticky;
+    top: 0; */
+
+
+}
+
+.items {
+    margin-left: 25px;
+}
+
+.items ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+
+}
+
+.items ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#ic{
+    font-size: 15px;
+    color: #fff;
+}
+
+.wrapper > *{
+    padding: 10px;
+    margin: 10px;
+    
+    border-radius: 10px;
+
+
+}
+
+.sideleft{
+    text-decoration: none;
+    height: 1200px;
+    width: 20%;
+    background-color:#90e0ef;
+    float: left;
+
+}
+
+.sideleft a.active{
+    background-color: #023e8a;
+    color: #fff;
+    border-radius: 10px;
+    
+}
+
+.main{
+    width: 55.5%;
+    height: 100%;
+    background-color: white;
+    float: left;
+}
+
+.sideright{
+    height: 1200px;
+    width: 20%;
+    background-color: #90e0ef;
+    float: left;
+}
+
+.sideright h4{
+    text-align: center;
+}
+
+.sideright video{
+    width: 250px;
+    height: 100px;
+    margin-top: 20%;
+}
+
+.footer{
+    clear: both;
+    background-color: #023e8a;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    color: white;
+}
+
+
+
+.sideleft h4{
+    font-size: 20px;
+    text-align: center;
+    background-color: #48cae4;
+    color: black;
+    border-radius: 10px;
+}
+
+.sideleft a {
+    
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    display: block;
+  }
+
+  .sideleft ::after{
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: #fff;
+    transition: 0.4s
+}
+
+.sideleft :hover::after{
+    width: 100%;
+}
+
+.sideleft i{
+    padding-right: 4px;
+}
+
+.main h1{
+    text-align: center;
+}
+
+.content{
+    margin-top: 10%;
+    font-size: 15px;
+}
+
+.content h3{
+    font-size: 20px;
+}
+
+.content p{
+    margin-top: 1.3%;
+
+}
+
+#box{
+    background-color: #caf0f8;
+    border-radius: 0.3cm;
+    padding: 4px 35px;
+    color: #fe0000;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+}
+
+.container p{
+    margin-top: 1.3%;
+}
+
+
+span{
+    color: black;
+}
+
+#bt{
+    float: right;
+    margin-top: 4%;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 0.2cm;
+    background-color: #023e8a;
+    color: white;
+}
+
+#btn{
+    float: right;
+    margin-top: 19%;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 0.2cm;
+    background-color: #023e8a;
+    color: white;
+}
+
+.btnp{
+    margin-top: 0;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 0.2cm;
+    background-color:#023e8a;
+    color: white;
+}
+
+.btn{
+    float: right;
+    margin-top: 0;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 0.2cm;
+    background-color: #023e8a;
+    color: white;
+}
